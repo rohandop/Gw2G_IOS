@@ -14,7 +14,6 @@
 		E1B9F20C15C00CFE003D43B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9F20B15C00CFE003D43B9 /* main.m */; };
 		E1B9F21015C00CFE003D43B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9F20F15C00CFE003D43B9 /* AppDelegate.m */; };
 		E1B9F21315C00CFE003D43B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B9F21115C00CFE003D43B9 /* MainStoryboard.storyboard */; };
-		E1B9F21615C00CFE003D43B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9F21515C00CFE003D43B9 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +28,6 @@
 		E1B9F20E15C00CFE003D43B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1B9F20F15C00CFE003D43B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E1B9F21215C00CFE003D43B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E1B9F21415C00CFE003D43B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1B9F21515C00CFE003D43B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,11 +234,9 @@
 		E1B9F20515C00CFE003D43B9 /* GW2G_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E1B9F21115C00CFE003D43B9 /* MainStoryboard.storyboard */,
 				E1B9F20E15C00CFE003D43B9 /* AppDelegate.h */,
 				E1B9F20F15C00CFE003D43B9 /* AppDelegate.m */,
-				E1B9F21115C00CFE003D43B9 /* MainStoryboard.storyboard */,
-				E1B9F21415C00CFE003D43B9 /* ViewController.h */,
-				E1B9F21515C00CFE003D43B9 /* ViewController.m */,
 				E1B9F20615C00CFE003D43B9 /* Supporting Files */,
 			);
 			path = GW2G_IOS;
@@ -322,7 +317,6 @@
 			files = (
 				E1B9F20C15C00CFE003D43B9 /* main.m in Sources */,
 				E1B9F21015C00CFE003D43B9 /* AppDelegate.m in Sources */,
-				E1B9F21615C00CFE003D43B9 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
