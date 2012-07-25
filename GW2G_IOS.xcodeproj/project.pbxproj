@@ -47,9 +47,169 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E15F667D15C02E7E00B78047 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668015C02EB900B78047 /* GUI */,
+				E15F667F15C02EAE00B78047 /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E15F667F15C02EAE00B78047 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668815C02FA800B78047 /* Mesmer */,
+				E15F668715C02F8A00B78047 /* Engineer */,
+				E15F668615C02F2F00B78047 /* Necromancer */,
+				E15F668515C02F2600B78047 /* Ranger */,
+				E15F668415C02F1600B78047 /* Elementalist */,
+				E15F668315C02F0E00B78047 /* Guardian */,
+				E15F668215C02EF800B78047 /* Warrior */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		E15F668015C02EB900B78047 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				E15F669115C0300D00B78047 /* Tab Bar */,
+				E15F669015C02FFE00B78047 /* App Icon */,
+				E15F668115C02EDA00B78047 /* Launcher */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		E15F668115C02EDA00B78047 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Launcher;
+			sourceTree = "<group>";
+		};
+		E15F668215C02EF800B78047 /* Warrior */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668F15C02FDB00B78047 /* Skills */,
+			);
+			name = Warrior;
+			sourceTree = "<group>";
+		};
+		E15F668315C02F0E00B78047 /* Guardian */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668E15C02FD800B78047 /* Skills */,
+			);
+			name = Guardian;
+			sourceTree = "<group>";
+		};
+		E15F668415C02F1600B78047 /* Elementalist */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668D15C02FD200B78047 /* Skills */,
+			);
+			name = Elementalist;
+			sourceTree = "<group>";
+		};
+		E15F668515C02F2600B78047 /* Ranger */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668C15C02FD000B78047 /* Skills */,
+			);
+			name = Ranger;
+			sourceTree = "<group>";
+		};
+		E15F668615C02F2F00B78047 /* Necromancer */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668B15C02FCC00B78047 /* Skills */,
+			);
+			name = Necromancer;
+			sourceTree = "<group>";
+		};
+		E15F668715C02F8A00B78047 /* Engineer */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668A15C02FC400B78047 /* Skills */,
+			);
+			name = Engineer;
+			sourceTree = "<group>";
+		};
+		E15F668815C02FA800B78047 /* Mesmer */ = {
+			isa = PBXGroup;
+			children = (
+				E15F668915C02FB000B78047 /* Skills */,
+			);
+			name = Mesmer;
+			sourceTree = "<group>";
+		};
+		E15F668915C02FB000B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F668A15C02FC400B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F668B15C02FCC00B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F668C15C02FD000B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F668D15C02FD200B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F668E15C02FD800B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F668F15C02FDB00B78047 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		E15F669015C02FFE00B78047 /* App Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "App Icon";
+			sourceTree = "<group>";
+		};
+		E15F669115C0300D00B78047 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
 		E1B9F1F015C00CFE003D43B9 = {
 			isa = PBXGroup;
 			children = (
+				E15F667D15C02E7E00B78047 /* Images */,
 				E1B9F20515C00CFE003D43B9 /* GW2G_IOS */,
 				E1B9F1FE15C00CFE003D43B9 /* Frameworks */,
 				E1B9F1FC15C00CFE003D43B9 /* Products */,
@@ -274,6 +434,7 @@
 				E1B9F21B15C00CFE003D43B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
